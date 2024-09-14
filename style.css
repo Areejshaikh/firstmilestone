@@ -1,0 +1,91 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Profile section */
+.profilePicture {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.profilePicture img {
+    width: 17%;
+    margin-top: 3px
+
+}
+.userName{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: #030857;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+/* Heading Section */
+h2 {
+    margin-bottom: 4px;
+    color: #333;
+    font-size: 35px;
+}
+
+/* create Line */
+.h_line {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 3px;
+    background: #030857
+}
+
+/* ul li Section */
+ul li {
+    list-style: none;
+}
+
+.p_Information,
+.experience,
+.education,
+.skills {
+    margin: 30px 10px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #ebeaea;
+    padding: 22px 18px;
+    cursor: pointer;
+}
+
+.skills {
+    display: none;
+}
+.skillToggleBtn{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #ebeaea;
+    font-size: 15px;
+    padding: 11px 12px;
+    width: 14%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #030857;
+    color: white;
+}
